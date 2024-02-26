@@ -1,0 +1,649 @@
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+	  <link rel="icon" type="image/png" href="assets/img/logo-upteb.png" sizes="16x16">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+
+        
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+        
+        <!-- Main Style -->
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+        <!-- Responsive Style -->
+        <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/ihover.css" >
+		<link rel="stylesheet" type="text/css" href="assets/css/shadowbox.css" >
+
+        <!--Icon Fonts-->
+        <link rel="stylesheet" media="screen" href="assets/fonts/font-awesome/font-awesome.min.css" />
+
+
+        <!-- Extras -->
+        <link rel="stylesheet" type="text/css" href="assets/extras/animate.css">
+        <link rel="stylesheet" type="text/css" href="assets/extras/lightbox.css">
+<style>
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@keyframes blink {  
+  0% { color: red; }
+  100% { color: yellow; }
+}
+@-webkit-keyframes blink {
+  0% { color: red; }
+  100% { color: yellow; }
+}
+.blink {
+  -webkit-animation: blink 1s linear infinite;
+  -moz-animation: blink 1s linear infinite;
+  animation: blink 1s linear infinite;
+}
+</style>
+
+        <!-- jQuery Load -->
+        <script src="assets/js/jquery-min.js"></script>
+		<script src="assets/js/shadowbox.js"></script>
+	<!-- anuncio 	
+<script type="text/javascript"> Shadowbox.init({ language: "es", players:  ['img', 'html', 'iframe', 'qt', 'wmp', 'swf', 'flv'] }); </script>
+<script type="text/javascript"> 
+$(document).ready(function(){
+	setTimeout(function() {
+	    Shadowbox.open({
+    	    content:    '<div><img src="informacion.png"></div>',
+    	    player:     "html",
+    	    title:     "<a href='#' onclick='Shadowbox.close()' style='color:white;float:right;font-weight:bold;text-decoration:none;'>Cerrar Ventana</a>",
+    	    width:      550,
+    	    height:     418
+    	});
+	}, 50);
+});
+</script>-->
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+      </head>
+
+    <body data-spy="scroll" data-offset="20" data-target="#navbar">
+    <!-- Nav Menu Section -->
+    <div class="logo-menu">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="50">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header col-md-3">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#home">UPTB-PNFI</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar">
+                            <ul class="nav navbar-nav col-md-9 pull-right">
+							<li class="active"><a href="http://josejimenez.byethost18.com/"><i class="fa fa-bars"></i> Principal</a></li>
+                            <li class="active"><a href="#hero-area"><i class="fa fa-home"></i> Inicio</a></li>
+                           <!-- <li><a href="#services"><i class="fa fa-cogs"></i> Services</a></li>-->
+                            <li><a href="#portfolio"><i class="fa fa-calendar"></i> Mi Horario</a></li>
+                           <li><a href="#clients"><i class="fa fa-download"></i> Unidades Curriculares</a></li>
+                            <!--<li><a href="#about"><i class="fa fa-info"></i> Planes de Evaluación</a></li>-->
+                            <li><a href="#contact"><i class="fa fa-envelope"></i> Contacto</a></li>
+                            </ul>
+        </div>
+      </div>
+    </nav>
+    </div>
+<!-- Nav Menu Section End -->
+
+<!-- Hero Area Section -->
+
+<section id="hero-area">
+<div class="container">
+    <div class="row">
+<div class="col-md-12">
+        <h1 class="title">Bienvenid@s Estudiantes</h1>
+
+        <img class="col-md-6 col-sm-6 col-xs-12 animated fadeInRight" style="border-radius: 25px;" src="assets/img/logo-upteb.png" alt="">
+
+        <div class="col-md-6 col-sm-6 col-xs-12 animated fadeInLeft delay-0-5">
+        <h2 style="text-align:justify;">Sitio Web desarrollado por el Docente José Jiménez, para interactuar con los Estudiantes del PNFI del <b>UPTB</b>, 
+		ubicado en el Casco Historico de Ciudad Bolívar - Estado Bolívar.</h2>
+		<span class="blink" style="font-size:28px;background:#DCDCDC;border-radius:20px;">&nbsp;<b><i class="fa fa-download"></i></b>&nbsp;</span> <a href="assets/img/logo-upteb.png" download="Logo-UPTEB"><b>Descargar Logo UPTEB</b></a>
+        </br> </br>
+		<!--<span class="blink" style="font-size:28px;background:#DCDCDC;border-radius:20px;">&nbsp;<b><i class="fa fa-download"></i></b>&nbsp;</span> <a href="https://drive.google.com/file/d/1rZ9FILSAXvI3SiolExeO5aLtwFWfQHrS/view?usp=sharing" download="sistema_users"><b>Descargar Material Taller AppWeb</b></a>
+       </br> </br>-->
+		<span class="blink" style="font-size:28px;background:#DCDCDC;border-radius:20px;">&nbsp;<b><i class="fa fa-download"></i></b>&nbsp;</span> <a href="archivos/PROYECTO PRESENTACION.pptx" download="Plantilla_Proyecto"><b>Plantilla de Presentación para Defensa de Proyecto</b></a>
+        
+	   </div>
+</div>
+
+    </div>
+</div>
+</section>
+
+<!-- Hero Area Section End-->
+
+
+
+<!-- Service Section -->
+<!--
+<section id="services">
+<div class="container text-center">
+<div class="row">
+<h1 class="title">What we do</h1>
+<h2 class="subtitle">Lorem Ipsum is simply dummy text</h2>
+
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+    <div class="service-item">
+    <img src="assets/img/services/responsive.png" alt="">
+    <h3>Fully Responsive</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+    </div>
+    </div>
+
+
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+    <div class="service-item">
+    <img src="assets/img/services/bs3.png" alt="">
+    <h3>Bootstrap 3</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+    </div>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+    <div class="service-item">
+    <img src="assets/img/services/free.png" alt="">
+    <h3>100% Free</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+    </div>
+    </div>
+
+</div>
+</div>
+ </section>-->
+<!-- Service Section End -->
+
+
+
+<!-- Portfolio Section -->
+
+    <section id="portfolio">
+    <div class="container">
+    <div class="row">
+    <h1 class="title">Horario</h1>
+    <h2 class="subtitle">Periodo Académico 2022</h2>
+
+<table class="table table-striped">
+        <thead>
+            <tr>
+                <th WIDTH="120PX">HORA</th>
+                <th>LUNES</th>
+                <th>MARTES</th>
+				<th>MIERCOLES</th>
+				<th>JUEVES</th>
+				<th>VIERNES</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>07:40 a 08:20</td>
+                <td>-----</td>
+                <td>-----</td>
+				<td><B>-----</B></td>
+				<td><B>-----</B></td>
+				<td><B>-----</B></td>
+            </tr>
+            <tr>
+                <td>08:20 a 09:00</td>
+                <td>-----</td>
+                <td>-----</td>
+				<td>-----</td>
+				<td>-----</td>
+				<td>-----</td>
+            </tr>
+			<tr>
+                <td>09:00 a 09:40</td>
+                <td>-----</td>
+               <td><B>-----</B></td>
+			   <td>-----</td>
+			   <td>-----</td>
+			   <td>-----</td>
+            </tr>
+			<tr>
+                <td>09:40 a 10:20</td>
+                <td><B>-----</B></td>
+                <td>-----</td>
+				<td>-----</td>
+				<td><B>-----</B></td>
+				<td>-----</td>
+            </tr>
+			<tr>
+                <td>10:20 a 11:00</td>
+                <td>-----</td>
+                <td>-----</td>
+				<td>-----</td>
+				<td>-----</td>
+				<td>-----</td>
+            </tr>
+			<tr>
+                <td>11:00 a 11:40</td>
+                <td>-----</td>
+                <td>-----</td>
+				<td>-----</td> 
+				<td>-----</td>
+				<td>-----</td>
+            </tr>
+        </tbody>
+    </table>
+<!--
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="portfolio-item wow fadeInLeft" data-wow-delay=".5s">
+    <a href="#"><img src="assets/img/portfolio/img1.jpg" alt=""></a>
+    <div class="overlay">
+    <div class="icons">
+    <a data-lightbox="image1" href="assets/img/portfolio/img1.jpg" class="preview"><i class="fa fa-search-plus fa-4x"></i></a>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="portfolio-item wow fadeInLeft" data-wow-delay=".7s">
+    <a href="#"><img src="assets/img/portfolio/img2.jpg" alt=""></a>
+    <div class="overlay">
+    <div class="icons">
+    <a data-lightbox="image1" href="assets/img/portfolio/img2.jpg" class="preview"><i class="fa fa-search-plus fa-4x"></i></a>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="portfolio-item wow fadeInLeft" data-wow-delay=".9s">
+    <a href="#"><img src="assets/img/portfolio/img3.jpg" alt=""></a>
+    <div class="overlay">
+    <div class="icons">
+    <a data-lightbox="image1" href="assets/img/portfolio/img3.jpg" class="preview"><i class="fa fa-search-plus fa-4x"></i></a>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="1.1s">
+    <div class="portfolio-item">
+    <a href="#"><img src="assets/img/portfolio/img4.jpg" alt=""></a>
+    <div class="overlay">
+    <div class="icons">
+    <a data-lightbox="image1" href="assets/img/portfolio/img4.jpg" class="preview"><i class="fa fa-search-plus fa-4x"></i></a>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="1.3s">
+    <div class="portfolio-item">
+    <a href="#"><img src="assets/img/portfolio/img5.jpg" alt=""></a>
+    <div class="overlay">
+    <div class="icons">
+    <a data-lightbox="image1" href="assets/img/portfolio/img5.jpg" class="preview"><i class="fa fa-search-plus fa-4x"></i></a>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="1.5s">
+    <div class="portfolio-item">
+    <a href="#"><img src="assets/img/portfolio/img6.jpg" alt=""></a>
+    <div class="overlay">
+    <div class="icons">
+    <a data-lightbox="image1" href="assets/img/portfolio/img6.jpg" class="preview"><i class="fa fa-search-plus fa-4x"></i></a>
+    </div>
+    </div>
+    </div>
+    </div>
+      -->
+    </div>
+    </div>
+    </section>
+<!-- Portfolio Section End -->
+
+
+<!-- Client Section -->
+    <section id="clients">
+    <div class="container">
+    <div class="row">
+
+    <h1 class="title">Unidades Curriculares</h1>
+    <h2 class="subtitle">En este apartado podras ver y descargar el material de apoyo para tus actividades.</h2>
+	<div class="container">
+<div class="row"> 
+<!--
+   <div class="col-xs-6 col-md-4">
+      <div class="ih-item square effect13 bottom_to_top"><a href="pII.html">
+        <div class="img"><img src="assets/img/pII.png" alt="img"></div>
+        <div class="info">
+          <h3>Programación II</h3>
+          <p>Haz Click para ingresar...</p>
+        </div></a></div>
+   </div>
+   -->
+ <div class="col-xs-12 col-md-4" style="margin-top:15px;"> <center>
+  <div class="ih-item square effect13 bottom_to_top"><a href="algoritmica.html">
+        <div class="img"><img src="assets/img/ayp23.png" alt="img"></div>
+        <div class="info">
+          <h3><b>Algorítmica y Programación, T1-INF-1</b></h3>
+          <p>Haz Click para ingresar...</p>
+        </div></a></div></center>
+		
+</div>
+
+ <div class="col-xs-12 col-md-4" style="margin-top:15px;"> <center>
+  <div class="ih-item square effect13 bottom_to_top"><a href="pst3_1.html">
+        <div class="img"><img src="assets/img/pst3.png" alt="img"></div>
+        <div class="info">
+          <h3><b>Proyecto Socio Tecnológico III, T3-INF-1</b></h3>
+          <p>Haz Click para ingresar...</p>
+        </div></a></div></center>
+		
+</div>
+ <div class="col-xs-12 col-md-4" style="margin-top:15px;"> <center>
+  <div class="ih-item square effect13 bottom_to_top"><a href="pst3_2.html">
+        <div class="img"><img src="assets/img/pst3.png" alt="img"></div>
+        <div class="info">
+          <h3><b>Proyecto Socio Tecnológico III, T3-INF-2</b></h3>
+          <p>Haz Click para ingresar...</p>
+        </div></a></div></center>
+		
+</div>
+
+<div class="col-xs-12 col-md-4" style="margin-top:15px;"> <center>
+  <div class="ih-item square effect13 bottom_to_top"><a href="programacion2.html">
+        <div class="img"><img src="assets/img/p2.png" alt="img"></div>
+        <div class="info">
+          <h3><b>Programación II, T2-INF-3</b></h3>
+          <p>Haz Click para ingresar...</p>
+        </div></a></div></center>
+		
+</div>
+<!--
+<div class="col-xs-12 col-md-4"> <center>
+  <div class="ih-item square effect13 bottom_to_top"><a href="pb_gcs.html">
+        <div class="img"><img src="assets/img/piu-gcs.png" alt="img"></div>
+        <div class="info">
+          <h3><b>Pensamiento Bolivariano PIU-GCS-1</b></h3>
+          <p>Haz Click para ingresar...</p>
+        </div></a></div></center>
+		
+</div>
+<div class="col-xs-12 col-md-4"> <center>
+  <div class="ih-item square effect13 bottom_to_top"><a href="pb_imi.html">
+        <div class="img"><img src="assets/img/piu-imi.png" alt="img"></div>
+        <div class="info">
+          <h3><b>Pensamiento Bolivariano PIU-IMI-1</b></h3>
+          <p>Haz Click para ingresar...</p>
+        </div></a></div></center>
+		
+</div>
+</div>
+  <!--<div class="col-xs-12 col-md-4"> <center>
+  <div class="ih-item square effect13 bottom_to_top"><a href="ayp.html">
+        <div class="img"><img src="assets/img/ayp1m.png" alt="img"></div>
+        <div class="info">
+          <h3><b>Algorítmica y Programación T1-INF-1M</b></h3>
+          <p>Haz Click para ingresar...</p>
+        </div></a></div></center>
+		
+		</div>
+		  <div class="col-xs-12 col-md-4"> <center>
+  <div class="ih-item square effect13 bottom_to_top"><a href="pst2m.html">
+        <div class="img"><img src="assets/img/pst1-2m.png" alt="img"></div>
+        <div class="info">
+          <h3><b>Proyecto Socio Tecnológico 1 T1-INF-2M</b></h3>
+          <p>Haz Click para ingresar...</p>
+        </div></a></div></center>
+		
+		</div>
+  <div class="col-xs-12 col-md-4"><center> <div class="ih-item square effect13 bottom_to_top"><a href="arqui.html">
+        <div class="img"><img src="assets/img/arqui4m.png" alt="img"></div>
+        <div class="info">
+          <h3><b>Arquitectura del Computador T1-INF-4M</b></h3>
+          <p>Haz Click para ingresar...</p>
+        </div></a></div></center>
+		</div>   -->
+
+</div>
+</div>
+ <!-- <h1 class="title">Metodo Cientifico:</h1><br/>
+<div class="content">
+    <div class="embed-container">
+        <iframe src="apoyo/metodo cientifico.pdf" frameborder="0"></iframe>
+    </div>
+</div>-->
+
+    </div>
+    </div>
+    </section>
+<!-- Client Section End -->
+
+
+
+<!-- About Section -->
+
+ <!--   <section id="about">
+    <div class="container">
+    <div class="row">
+    <h1 class="title">Planes de Evaluación</h1>
+    <h2 class="subtitle">En este apartado podras ver y descargar tu Plan de Evaluación</h2>
+  <h1 class="title">Plan de Evaluación (Periodo 2)</h1><br/>
+<div class="content">
+    <div class="embed-container">
+        <iframe src="apoyo/CN plan periodo 2.pdf" frameborder="0"></iframe>
+    </div>
+</div>
+<hr>
+  <h1 class="title">Plan de Evaluación (Periodo 3)</h1><br/>
+<div class="content">
+    <div class="embed-container">
+        <iframe src="apoyo/CN plan periodo 3.pdf" frameborder="0"></iframe>
+    </div>
+</div>
+<hr>
+  <h1 class="title">Plan de Evaluación (Periodo 4)</h1><br/>
+<div class="content">
+    <div class="embed-container">
+        <iframe src="apoyo/CN plan periodo 4.pdf" frameborder="0"></iframe>
+    </div>
+</div>
+<hr>
+  <h1 class="title">Plan de Evaluación (Periodo 5)</h1><br/>próximamente...
+<div class="content">
+    <div class="embed-container">
+        <iframe src="" frameborder="0"></iframe>
+    </div>
+</div>
+<hr>
+  <h1 class="title">Plan de Evaluación (Periodo 6)</h1><br/>próximamente...
+<div class="content">
+    <div class="embed-container">
+        <iframe src="" frameborder="0"></iframe>
+    </div>
+</div>
+    <!--<div class="col-md-8 col-sm-12">
+    <p>
+    A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+    </p>
+    </div>
+
+    <img class="col-md-4 col-md-4 col-sm-12 col-xs-12" src="assets/img/about/graph.png" alt="">-->
+
+    </div>
+    </div>
+    </section
+<!-- About Section End -->
+
+
+
+<!-- Conatct Section  -->
+    <section id="contact">
+    <div class="container">
+    <div class="row">
+    <h1 class="title">Contacto y Envia Documentos</h1>
+  
+  <div class="container">
+   <h2 class="formuh1">Escribele a tu Docente y Adjunta tus Trabajos</h2>
+   <!--la propiedad enctype permite el envío de archivos adjuntos en el formulario. -->    
+    <form class="well col-lg-12" name='formulario' id='formulario' method='post' action='enviar.php' target='_self' enctype="multipart/form-data">
+      <div class="row">
+       <div class="col-lg-6">
+        <label class="pull-left">Nombre <b style="color:red;">*</b></label> <input id="Nombre" class="form-control" type="text" name="Nombre" required title="Se necesita Nombre y Apellido"/> 
+        <label class="pull-left">E-mail <b style="color:red;">*</b></label> <input id="email" class="form-control" type="text" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required title="Este no parece ser un E-mail válido" name="email" />
+		<label class="pull-left">Asunto <b style="color:red;">*</b></label><input type='text' class="form-control" name='asunto' id='asunto' required />
+       </div>
+        <div class="col-lg-6"><label class="pull-left">Mensaje</label> 
+         <textarea id="Mensaje" class="form-control" name="Mensaje" rows="4"></textarea>
+        </div>
+         <div class="col-lg-12">
+					   <div class="checkbox checkbox-primary">
+                        <input id="checkbox2" type="checkbox" onclick="document.getElementById('archivo-adjunto').disabled = ! document.getElementById('archivo-adjunto').disabled;" />
+                        <label for="checkbox2">
+                            Selecciona la casilla para poder habilitar el boton examinar y así adjuntar tu archivo...
+                        </label>
+                    </div>
+			<label>Adjuntar Archivo:</label>
+			<input type="file" name="adjunto" disabled="" id="archivo-adjunto"/>
+  </div>
+        <button class="btn btn-success pull-right" type="submit">Enviar</button>
+      </div>
+    </form>
+	<script>
+// cuando se muestre la página
+window.addEventListener('pageshow', function(event) {
+    // borra el formulario (asumiendo que sólo hay uno; si hay más, especifica su Id)
+    document.querySelector("form").reset();
+});
+</script>
+  <!-- 
+    <form role="form" class="contact-form" method="post">
+    <div class="col-md-6 wow fadeInLeft" data-wow-delay=".5s">
+    <div class="form-group">
+    <div class="controls">
+    <input type="text" class="form-control" placeholder="Name" name="name">
+    </div>
+    </div>
+    <div class="form-group">
+    <div class="controls">
+    <input type="email" class="form-control email" placeholder="Email" name="email">
+    </div>
+    </div>
+    <div class="form-group">
+    <div class="controls">
+    <input type="text" class="form-control requiredField" placeholder="Subject" name="subject">
+    </div>
+    </div>
+
+    <div class="form-group">
+
+    <div class="controls">
+    <textarea rows="7" class="form-control" placeholder="Message" name="message"></textarea>
+    </div>
+    </div>
+    <button type="submit" id="submit" class="btn btn-lg btn-common">Send</button><div id="success" style="color:#34495e;"></div>
+
+    </div>
+    </form>
+
+    <div class="col-md-6 wow fadeInRight">
+    <div class="social-links">
+    <a class="social" href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+    <a class="social" href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+    <a class="social" href="#" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
+    <a class="social" href="#" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+	</div>
+<div class="contact-info">
+    <p><i class="fa fa-map-marker"></i> Seattle, WA 00000, USA</p>
+     <p><i class="fa fa-envelope"></i> info@yourwebsite.com</p>
+</div>
+
+    <p>
+    A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit.<br>
+    </p>
+    -->
+    </div>
+
+    </div>
+    </div>
+    </section>
+<hr>
+<!-- Conatct Section End-->
+
+
+    <div id="copyright">
+    <div class="container"><br/>
+    <div class="col-md-10"><p class="text-center">(© UPTB-PNFI 2017) Desarrollado por: <a href="http://josejimenez.com.ve"><b>José Jiménez</b></a></p></div>
+    <div class="col-md-2">
+        <span class="to-top pull-right"><a href="#hero-area"><i class="fa fa-angle-up fa-2x"></i></a></span>
+        </div>
+    </div>
+    </div>
+<!-- Copyright Section End-->
+
+        <!-- Bootstrap JS -->
+        <script src="assets/js/bootstrap.min.js"></script>
+
+            <!-- Smooth Scroll -->
+                    <!-- Smooth Scroll -->
+        <script src="assets/js/smooth-scroll.js"></script>
+        <script src="assets/js/lightbox.min.js"></script>
+
+        <!-- All JS plugin Triggers -->
+        <script src="assets/js/main.js"></script>
+
+<!-- Chatra {literal} -->
+<script>
+    (function(d, w, c) {
+        w.ChatraID = 'zjxfKF2EdKM6vo93b';
+        var s = d.createElement('script');
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        s.async = true;
+        s.src = 'https://call.chatra.io/chatra.js';
+        if (d.head) d.head.appendChild(s);
+    })(document, window, 'Chatra');
+</script>
+<!-- /Chatra {/literal} -->
+<script language="JavaScript" type="text/javascript"><!--
+var txt=" ..:: UPTB - PNFI ::.. ";
+var refresco=null;
+function titulo() {
+document.title=txt;
+txt=txt.substring(1,txt.length)+txt.charAt(0); 
+refresco=setTimeout("titulo()",200);}
+titulo();
+// -->
+</script>
+    </body>
+    </html>
